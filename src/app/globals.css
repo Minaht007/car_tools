@@ -33,6 +33,6 @@ body {
 
   @media screen and (min-width: 390px) {
     width: 100vw;
-    max-width: 1920px;
+    max-width: 1440px;
   }
 }

@@ -1,10 +1,12 @@
-
+import Hero from "../../components/hero"
 
 import React from 'react'
 
 const MainPage = () => {
   return (
-    <div>MainPage</div>
+    <div>
+      <Hero/>
+    </div>
   )
 }
 

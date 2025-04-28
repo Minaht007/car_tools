@@ -55,13 +55,11 @@
   }
   .headerLinksContainer {
     display: flex;
-    /* margin-right: 40%; */
     margin: auto;
   }
   .headerLinks {
     margin: 0 60px;
-    font-style: inter;
-    /* font-size: 36px; */
+    font-family: interFont;    
     font-size: clamp(14px, 2vw, 36px);
     color: #fff;
     font-weight: 400;
@@ -73,15 +71,60 @@
     border-radius: 8px;
   }
   .headerBtmTitle {
-    font-display: inter;
+    font-family: inter;
     font-weight: 600;
-    /* font-size: 24px; */
-    font-size: clamp(14px, 2vw, 24px);
-    /* padding: 20px 11px; */
+    font-size: clamp(14px, 2vw, 24px);   
     padding: clamp(10px, 2vw, 20px) clamp(5px, 1.5vw, 11px);
     color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   }
   .headerBtmIcon {
     display: none;
+  }
+
+  /* HERO */
+
+  .heroSection {
+    background-color: #FFF5DD;
+    overflow: hidden;
+    position: relative;    
+  }
+
+  .heroImgDiv {    
+    margin-left: 50%;    
+    min-width: 600px;
+    width: 100%;
+    /* width: clamp(600px, 2vw, 1400px); */
+    min-height: 400px;
+    max-width: 1400px;
+    max-height: 800px;   
+  }
+  .heroImg {
+    width: clamp(600px, 80vw, 1000px);
+    height: auto; 
+    display: block;
+    width: 1479px;
+    height: 529px;
+  }
+
+  .heroTitleDiv {
+    margin-left: 170px;
+    margin-top: 120px;
+  }
+
+  .heroTitle {
+    font-family: interFont;
+    font-weight: 400px;
+    font-size: clamp(50px, 2vw, 64px);
+  }
+  .heroBtm {
+    background-color: #B67216;
+    padding: 15px 14px;
+    color: #fff;
+    font-size: 26px;
+    font-family: interFont;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   }
 }

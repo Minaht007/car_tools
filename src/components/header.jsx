@@ -18,13 +18,13 @@ const header = () => {
       </div>
       <div className={styles.headerLinksContainer}>
         <Link className={styles.headerLinks} href="#">
-          Что
+         Хто ми
         </Link>
         <Link className={styles.headerLinks} href="#">
           Доставка
         </Link>
         <Link className={styles.headerLinks} href="#">
-          Контакты
+          Контакти
         </Link>
       </div>
       <div className={styles.headerBtmDiv}>
