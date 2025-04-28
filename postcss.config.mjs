@@ -1,3 +1,40 @@
+const config = {
+  plugins: {
+    "@tailwindcss/postcss": {
+      theme: {
+            extend: {
+               backgroundColor: {
+                mainBG: "#B67216", 
+              },
+              textColor: {
+               mainColor: "#B67216", 
+              }
+           },
+           },
+    },
+  },
+};
+export default config;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const config = {
 //   plugins: ["@tailwindcss/postcss"],
 //   extends: {
@@ -12,15 +49,24 @@
 
 // export default config;
 
-/** @type {import('tailwindcss').Config} */
-export default {
-  plugins: {
-    '@tailwindcss/postcss': {
-      extends: {      
-          backgroundColor: {
-              mainBG: " #B67216"
-            }
-           }
-        }
-    },  
-}
+
+// /** @type {import('tailwindcss').Config} */
+// export default {
+//   content: [
+//     "./pages/**/*.{js,ts,jsx,tsx}",
+//     "./components/**/*.{js,ts,jsx,tsx}",
+//   ],
+//   theme: {
+//     extend: {
+//       backgroundColor: {
+//         mainBG: "#B67216", 
+//       },
+//       textColor: {
+//         mainColor: "#B67216", 
+//       }
+//     },
+//   },
+//   plugins: [
+//     require('@tailwindcss/forms'), 
+//   ],
+// }
