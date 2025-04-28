@@ -6,9 +6,10 @@ import styles from "./style/styles.module.css"
 
 const hero = () => {
   return (
-    <section className={styles.heroSection}>
+    <section className={`${styles.heroSection} bg-mainBG`}>
         <div className={styles.heroTitleDiv}>
-            <h1 className={styles.heroTitle}>Живи легендою... <br/> Ремонтуй з оригіналом</h1>
+            <h1 className={styles.heroTitle}>Живи легендою...</h1>
+            <h1 className={styles.heroTitle}>Ремонтуй з оригіналом</h1>
             <button className={styles.heroBtm}>Замовити деталь</button>
         </div>
         <div className={styles.heroImgDiv}>

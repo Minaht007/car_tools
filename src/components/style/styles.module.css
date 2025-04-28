@@ -85,7 +85,7 @@
   /* HERO */
 
   .heroSection {
-    background-color: #FFF5DD;
+    /* background-color: #FFF5DD; */
     overflow: hidden;
     position: relative;    
   }
@@ -116,6 +116,7 @@
     font-family: interFont;
     font-weight: 400px;
     font-size: clamp(50px, 2vw, 64px);
+    letter-spacing: 2px;    
   }
   .heroBtm {
     background-color: #B67216;
@@ -126,5 +127,6 @@
     font-weight: 600;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
   }
 }
