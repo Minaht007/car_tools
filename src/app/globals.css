@@ -26,7 +26,10 @@
 
   /* Font sizes */
   --text-lgBtm: 24px;
+
+  --text-mediumUnderTitleDesk: 32px;
   --text-mediumDesk: 36px;
+
   --text-lg: 24px;
   --text-xl: 64px;
 
