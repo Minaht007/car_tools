@@ -1,17 +1,6 @@
 const config = {
   plugins: {
-    "@tailwindcss/postcss": {
-      theme: {
-            extend: {
-               backgroundColor: {
-                mainBG: "#B67216", 
-              },
-              textColor: {
-               mainColor: "#B67216", 
-              }
-           },
-           },
-    },
+    "@tailwindcss/postcss": {},
   },
 };
 export default config;
