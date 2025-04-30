@@ -26,12 +26,14 @@
 
   /* Font sizes */ 
 
-  --text-mediumUnderTitleDesk: 32px;
+  --text-mediumUnderTitleDesk: clamp(14px, 2vw, 32px);;
   --text-mediumDesk: 36px;
 
   --text-lgBtm: 24px;
   --text-lg: 24px;
   --text-titleXl: 64px;
+
+  --spacingx-pdt: clamp(10px, 2vw, 24px);
 
   /* Font-Weight */
   --font-weight-thin: 100; 

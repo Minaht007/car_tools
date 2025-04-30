@@ -1,0 +1,122 @@
+[
+    {
+        "title": "alfa",
+        "img": "/img/autoLogo/webP/alfa.webp",
+        "alt": "alfa romeo"
+    },
+    {
+        "title": "audi",
+        "img": "/img/autoLogo/webP/audi.webp",
+        "alt": "audi"
+    },
+    {
+        "title": "bmw",
+        "img": "/img/autoLogo/webP/bmw.webp",
+        "alt": "bmw "
+    },
+    {
+        "title": "chevrolet",
+        "img": "/img/autoLogo/webP/chevrolet.webp",
+        "alt": "chevrolet "
+    },
+    {
+        "title": "citroen",
+        "img": "/img/autoLogo/webP/citroen.webp",
+        "alt": "citroen "
+    },
+    {
+        "title": "crisler",
+        "img": "/img/autoLogo/webP/crisler.webp",
+        "alt": "crisler "
+    },
+    {
+        "title": "daewoo",
+        "img": "/img/autoLogo/webP/daewoo.webp",
+        "alt": "daewoo "
+    },
+    {
+        "title": "ford",
+        "img": "/img/autoLogo/webP/ford.webp",
+        "alt": "ford "
+    },
+    {
+        "title": "hunday",
+        "img": "/img/autoLogo/webP/hunday.webp",
+        "alt": "hunday "
+    },
+    {
+        "title": "jaguar",
+        "img": "/img/autoLogo/webP/jaguar.webp",
+        "alt": "jaguar "
+    },
+    {
+        "title": "lexus",
+        "img": "/img/autoLogo/webP/lexus.webp",
+        "alt": "lexus "
+    },
+    {
+        "title": "mazda",
+        "img": "/img/autoLogo/webP/mazda.webp",
+        "alt": "mazda "
+    },
+    {
+        "title": "mersedes",
+        "img": "/img/autoLogo/webP/mersedes.webp",
+        "alt": "mersedes "
+    },
+    {
+        "title": "mitzubisi",
+        "img": "/img/autoLogo/webP/mitzubisi.webp",
+        "alt": "mitzubisi "
+    },
+    {
+        "title": "mustang-2",
+        "img": "/img/autoLogo/webP/mustang-2.webp",
+        "alt": "mustang-2 "
+    },
+    {
+        "title": "mustang",
+        "img": "/img/autoLogo/webP/mustang.webp",
+        "alt": "mustang "
+    },
+    {
+        "title": "pego",
+        "img": "/img/autoLogo/webP/pego.webp",
+        "alt": "pego "
+    },
+    {
+        "title": "porche",
+        "img": "/img/autoLogo/webP/porche.webp",
+        "alt": "porche "
+    },
+    {
+        "title": "renault",
+        "img": "/img/autoLogo/webP/renault.webp",
+        "alt": "renault "
+    },
+    {
+        "title": "subaru",
+        "img": "/img/autoLogo/webP/subaru.webp",
+        "alt": "subaru "
+    },
+    {
+        "title": "tesla",
+        "img": "/img/autoLogo/webP/tesla.webp",
+        "alt": "tesla "
+    },
+    {
+        "title": "tomaso",
+        "img": "/img/autoLogo/webP/tomaso.webp",
+        "alt": "tomaso "
+    },
+    {
+        "title": "toyota",
+        "img": "/img/autoLogo/webP/toyota.webp",
+        "alt": "toyota "
+    },
+    {
+        "title": "volzvagen",
+        "img": "/img/autoLogo/webP/volzvagen.webp",
+        "alt": "volzvagen "
+    }
+]

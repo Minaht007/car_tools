@@ -94,7 +94,7 @@ const SlideShow = () => {
         </button>
       </div>
 
-      <div className="flex justify-center items-center ">
+      <div className="flex justify-center items-center bg-mainBG ">
         {[...Array(Math.ceil(totalSlides / slidesPerPage)).keys()].map(
           (index) => (
             <div
