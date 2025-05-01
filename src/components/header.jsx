@@ -20,7 +20,7 @@ const header = () => {
         <Link className={styles.headerLinks} href="#">
          Хто ми
         </Link>
-        <Link className={styles.headerLinks} href="#">
+        <Link className={styles.headerLinks} href="delivery">
           Доставка
         </Link>
         <Link className={styles.headerLinks} href="#">
