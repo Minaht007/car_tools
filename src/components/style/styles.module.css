@@ -1,5 +1,5 @@
 @media screen and (max-width: 767px) {
-     /* Header */
+  /* Header */
   .headerSection {
     background-color: #b67216;
     display: flex;
@@ -23,10 +23,10 @@
     font-size: 16px;
     color: #fff;
     font-weight: 400;
-  } 
+  }
 
   .headerBtmTitle {
-   display: none;
+    display: none;
   }
 
   .headerBtmIcon {
@@ -59,10 +59,15 @@
   }
   .headerLinks {
     margin: 0 60px;
-    font-family: interFont;    
+    font-family: interFont;
     font-size: clamp(14px, 2vw, 36px);
     color: #fff;
     font-weight: 400;
+    cursor: pointer;
+  }
+  .headerLinks:hover {
+    color: #1651b6;
+    text-shadow: 4px 4px 8px #d48a1c;
   }
 
   .headerBtmDiv {
@@ -73,7 +78,7 @@
   .headerBtmTitle {
     font-family: inter;
     font-weight: 600;
-    font-size: clamp(14px, 2vw, 24px);   
+    font-size: clamp(14px, 2vw, 24px);
     padding: clamp(10px, 2vw, 20px) clamp(5px, 1.5vw, 11px);
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
@@ -87,21 +92,21 @@
   .heroSection {
     /* background-color: #FFF5DD; */
     overflow: hidden;
-    position: relative;    
+    position: relative;
   }
 
-  .heroImgDiv {    
-    margin-left: 50%;    
+  .heroImgDiv {
+    margin-left: 50%;
     min-width: 600px;
     width: 100%;
     /* width: clamp(600px, 2vw, 1400px); */
     min-height: 400px;
     max-width: 1400px;
-    max-height: 800px;   
+    max-height: 800px;
   }
   .heroImg {
     width: clamp(600px, 80vw, 1000px);
-    height: auto; 
+    height: auto;
     display: block;
     width: 1479px;
     height: 529px;
@@ -116,10 +121,10 @@
     font-family: interFont;
     font-weight: 400px;
     font-size: clamp(50px, 2vw, 64px);
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
   }
   .heroBtm {
-    background-color: #B67216;
+    background-color: #b67216;
     padding: 15px 14px;
     color: #fff;
     font-size: 26px;
