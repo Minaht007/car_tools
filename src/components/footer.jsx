@@ -8,7 +8,7 @@ import point from "../../public/icons/point.png"
 
 const footer = () => {
   return (
-    <div className='flex flex-row items-center bg-bgBtm py-2 justify-around '>
+    <div className='flex flex-row items-center bg-bgBtm py-2 justify-around ' id='contacts' >
         <div className=''>
             <Image src={logo} alt='logo' width={220} height={220} className='rounded-Btm'/>
         </div>

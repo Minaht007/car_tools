@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const whoWeAre = () => {
   return (
-    <section className="bg-mainBG py-10 relative">
+    <section className="bg-mainBG py-10 relative" id="whoWeAre">
         <div className="lg:w-[270px] ml-16 pt-[72px] mb-[30px]">
         <h1 className="flex flex-row justify-center items-center text-titleXl text-whiteText bg-bgBtm py-2 px-4 rounded-Btm ">Хто ми</h1>
         </div>

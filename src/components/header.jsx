@@ -7,7 +7,7 @@ import styles from "./style/styles.module.css";
 const header = () => {
   return (
     <section className={`${styles.headerSection} layout`}>
-      <div className={styles.logoImgDiv}>
+      <Link href="main" className={styles.logoImgDiv}>
         <Image
           src={Logo}
           alt="car_tools_logo"
@@ -15,15 +15,15 @@ const header = () => {
           height={137}
           className={styles.logoImg}
         />
-      </div>
+      </Link>
       <div className={styles.headerLinksContainer}>
-        <Link className={styles.headerLinks} href="#">
+        <Link className={styles.headerLinks} href="#whoWeAre">
          Хто ми
         </Link>
-        <Link className={styles.headerLinks} href="delivery">
+        <Link className={`${styles.headerLinks}`} href="delivery">
           Доставка
         </Link>
-        <Link className={styles.headerLinks} href="#">
+        <Link className={styles.headerLinks} href="#contacts">
           Контакти
         </Link>
       </div>
