@@ -17,7 +17,7 @@ const header = () => {
         />
       </Link>
       <div className={styles.headerLinksContainer}>
-        <Link className={styles.headerLinks} href="#whoWeAre">
+        <Link className={styles.headerLinks} href="main#whoWeAre">
          Хто ми
         </Link>
         <Link className={`${styles.headerLinks}`} href="delivery">
