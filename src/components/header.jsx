@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../public/img/Logo.png";
-import phone from "../../public/icons/smartphone.png"
+import phone from "../../public/icons/phone.png"
 import styles from "./style/styles.module.css";
 
 const header = () => {
@@ -17,7 +17,7 @@ const header = () => {
         />
       </Link>
       <div className={styles.headerLinksContainer}>
-        <Link className={styles.headerLinks} href="#whoWeAre">
+        <Link className={styles.headerLinks} href="main#whoWeAre">
          Хто ми
         </Link>
         <Link className={`${styles.headerLinks}`} href="delivery">
