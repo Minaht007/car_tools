@@ -34,7 +34,7 @@ const footer = () => {
         {/* Map */}
         <div>
         <p className='flex flex-row justify-start items-center text-whiteText'>
-                <Image src={point} alt='phone' width={24} height={34} className='mr-5' />Україна
+                <Image src={point} alt='phone' width={24} height={64} className='mr-5' />Україна
             </p>
         </div>
     </div>
