@@ -1,0 +1,70 @@
+.marqueeSection {
+    background-color: #FFF5DD;
+    overflow: hidden;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 1rem 0;
+}
+
+.marquee {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.marqueeContent {
+    display: flex;
+    gap: 2rem;
+    animation: scroll 20s linear infinite;
+}
+
+.listItem {
+    font-weight: 300;
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: #000;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* mob */
+@media (max-width: 640px) {
+    .listItem {
+        font-size: 0.875rem;
+    }
+
+    .marqueeContent {
+        animation-duration: 15s;
+    }
+}
+
+/* tab*/
+@media (min-width: 641px) and (max-width: 1023px) {
+    .listItem {
+        font-size: 1rem;
+    }
+
+    .marqueeContent {
+        animation-duration: 18s;
+    }
+}
+
+/* desc*/
+@media (min-width: 1024px) {
+    .listItem {
+        font-size: 1.25rem;
+    }
+
+    .marqueeContent {
+        animation-duration: 20s;
+    }
+}

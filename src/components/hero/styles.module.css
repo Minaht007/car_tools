@@ -1,0 +1,125 @@
+.heroSection {
+    display: flex;
+    background-color: #FFF5DD;
+    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.textBlock {
+    margin-left: 170px;
+    padding-top: 130px;
+    z-index: 2;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 118%;
+    color: #000;
+}
+
+.orderButton {
+    background-color: #B67216;
+    padding: 0.875rem 1rem;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 4rem;
+    margin-bottom: 20rem;
+    cursor: pointer;
+}
+
+.carImage {
+    position: absolute;
+    top: 2.5rem;
+    right: -400px;
+    width: 100%;
+    height: auto;
+    max-width: 1800px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* mob */
+@media (max-width: 640px) {
+    .textBlock {
+        margin-left: 1rem;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 1.75rem;
+    }
+
+    .orderButton {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .carImage {
+        position: static;
+        width: 100%;
+        margin-top: -2rem;
+    }
+}
+
+/* tab */
+@media (min-width: 641px) and (max-width: 1023px) {
+    .heroSection {
+
+        padding: 2rem 1rem;
+
+    }
+
+    .textBlock {
+        margin-left: 2rem;
+        padding-top: 4rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .orderButton {
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+        font-size: 1.0625rem;
+    }
+
+    .carImage {
+        position: absolute;
+        right: -200px;
+        width: 100%;
+        max-width: 1000px;
+    }
+}
+
+/* desc */
+@media (min-width: 1024px) {
+    .textBlock {
+        margin-left: 170px;
+        padding-top: 130px;
+        margin-bottom: 4rem;
+    }
+
+    .title {
+        font-size: 64px;
+    }
+
+    .orderButton {
+        margin-top: 4rem;
+        margin-bottom: 20rem;
+        font-size: 1.125rem;
+    }
+
+    .carImage {
+        top: 3rem;
+        right: -400px;
+        width: 100%;
+        max-width: 1800px;
+    }
+}

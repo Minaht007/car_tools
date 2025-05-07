@@ -1,0 +1,69 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+}
+
+.wrapper {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    padding: 1rem;
+}
+
+.content {
+    background-color: beige;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 40%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    font-size: 1.5rem;
+    color: #6b7280;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.closeBtn:hover {
+    color: #374151;
+}
+
+/* mob*/
+@media (max-width: 640px) {
+    .content {
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    .closeBtn {
+        font-size: 1.25rem;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+}
+
+/* tab */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .content {
+        max-width: 70%;
+    }
+}
+
+/* deck*/
+@media (min-width: 1025px) {
+    .content {
+        max-width: 40%;
+    }
+}
