@@ -1,28 +1,9 @@
 const config = {
-  plugins: {
-    "@tailwindcss/postcss": {},
-  },
+	plugins: {
+		"@tailwindcss/postcss": {},
+	},
 };
 export default config;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // const config = {
 //   plugins: ["@tailwindcss/postcss"],
@@ -38,7 +19,6 @@ export default config;
 
 // export default config;
 
-
 // /** @type {import('tailwindcss').Config} */
 // export default {
 //   content: [
@@ -48,14 +28,14 @@ export default config;
 //   theme: {
 //     extend: {
 //       backgroundColor: {
-//         mainBG: "#B67216", 
+//         mainBG: "#B67216",
 //       },
 //       textColor: {
-//         mainColor: "#B67216", 
+//         mainColor: "#B67216",
 //       }
 //     },
 //   },
 //   plugins: [
-//     require('@tailwindcss/forms'), 
+//     require('@tailwindcss/forms'),
 //   ],
 // }

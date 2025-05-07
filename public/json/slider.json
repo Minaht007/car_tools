@@ -1,34 +1,34 @@
 [
     {
         "title": "wheels",
-        "img": "/img/swiper/wheels.jpeg",
+        "img": "/img/swiper/wheels.png",
         "text": "Шини та диски"
     },
     {
         "title": "filters",
-        "img": "/img/swiper/filters.jpeg",
+        "img": "/img/swiper/filters.png",
         "text": "Фільтри"
     },
     {
         "title": "engain",
-        "img": "/img/swiper/engain.jpeg",
+        "img": "/img/swiper/engine.png",
         "text": "Двигун"
     },
 
 
     {
         "title": "wheels1",
-        "img": "/img/swiper/wheels.jpeg",
+        "img": "/img/swiper/wheels.png",
         "text": "Шини та диски"
     },
     {
         "title": "filters1",
-        "img": "/img/swiper/filters.jpeg",
+        "img": "/img/swiper/filters.png",
         "text": "Фільтри"
     },
     {
         "title": "engain1",
-        "img": "/img/swiper/engain.jpeg",
+        "img": "/img/swiper/engine.png",
         "text": "Двигун"
     }
 ]

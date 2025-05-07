@@ -1,0 +1,139 @@
+.headerSection {
+    background-color: #b67216;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoImgDiv {
+    margin-left: 16px;
+}
+
+.logoImg {
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.headerLinksContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.headerLinks {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.headerLinks:hover {
+    color: #1651b6;
+    text-shadow: 4px 4px 8px #d48a1c;
+}
+
+.headerBtmDiv {
+    background-color: #edd498;
+    margin-right: 3%;
+    border-radius: 8px;
+}
+
+.headerBtmTitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 8px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.headerBtmIcon {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+/* mob */
+@media screen and (max-width: 767px) {
+    .logoImgDiv {
+        margin-left: 16px;
+    }
+
+    .logoImg {
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    .headerLinks {
+        font-size: 16px;
+    }
+
+    .headerBtmTitle {
+        display: none;
+    }
+
+    .headerBtmIcon {
+        display: block;
+    }
+}
+
+/* tab */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .logoImgDiv {
+        margin-left: 40px;
+    }
+
+    .headerLinksContainer {
+        gap: 3rem;
+    }
+
+    .logoImg {
+        min-width: 50px;
+        min-height: 50px;
+    }
+
+    .headerLinks {
+        font-size: clamp(14px, 2vw, 28px);
+    }
+
+    .headerBtmTitle {
+        display: block;
+        font-size: clamp(14px, 2vw, 20px);
+        padding: clamp(8px, 2vw, 16px) clamp(5px, 1.5vw, 10px);
+    }
+
+    .headerBtmIcon {
+        display: none;
+    }
+}
+
+/* deck*/
+@media screen and (min-width: 1023px) {
+    .logoImgDiv {
+        margin-left: 60px;
+    }
+
+    .headerLinksContainer {
+        gap: 6rem;
+    }
+
+    .logoImg {
+        min-width: 60px;
+        min-height: 60px;
+    }
+
+    .headerLinks {
+        font-size: clamp(14px, 2vw, 36px);
+    }
+
+    .headerBtmTitle {
+        display: block;
+        font-size: clamp(14px, 2vw, 24px);
+        padding: clamp(10px, 2vw, 20px) clamp(5px, 1.5vw, 11px);
+    }
+
+    .headerBtmIcon {
+        display: none;
+    }
+}

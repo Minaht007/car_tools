@@ -1,0 +1,84 @@
+.container {
+    background-color: #FFF5DD;
+    padding-bottom: 6rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 2.5rem;
+    padding-top: 1.25rem;
+    padding-left: 5rem;
+    font-weight: 300;
+    color: #333;
+}
+
+.logosGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 0 4.5rem;
+    margin-top: 2rem;
+}
+
+.toolsImg {
+    position: absolute;
+    right: 0;
+    top: 17.5rem;
+}
+
+/* mob*/
+@media (max-width: 640px) {
+    .title {
+        font-size: 1.8rem;
+        padding-left: 1.5rem;
+        text-align: center;
+    }
+
+    .logosGrid {
+        justify-content: center;
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+
+    .toolsImg {
+        position: static;
+        width: 100%;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* tab */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .title {
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+
+    .logosGrid {
+        justify-content: center;
+        gap: 3rem;
+        padding: 0 2rem;
+    }
+
+    .toolsImg {
+        position: absolute;
+        right: 0;
+        top: 20rem;
+        width: 70%;
+    }
+}
+
+/* desc*/
+@media (min-width: 1025px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .logosGrid {
+        justify-content: space-around;
+    }
+}
