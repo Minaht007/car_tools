@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
-const TELEGRAM_BOT_TOKEN = "5791335531:AAHjLacA9XBMcpzamPJiA_RzYQXvf0Liq5A";
-const CHAT_ID = "312216358";
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
 	if (req.method === "POST") {
