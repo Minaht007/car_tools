@@ -57,7 +57,7 @@ const SlideShow = () => {
 	return (
 		<>
 			<div {...handlers} className={styles.sliderContainer}>
-				<button onClick={prevSlide} className={styles.arrowBtn}>
+				<button onClick={prevSlide} className={styles.arrowButton}>
 					<FcPrevious size={40} />
 				</button>
 				{topSearch.slice(currentIndex, currentIndex + slidesPerPage).map((slide) => (
@@ -68,7 +68,7 @@ const SlideShow = () => {
 					</div>
 				))}
 
-				<button onClick={nextSlide} className={styles.arrowBtn}>
+				<button onClick={nextSlide} className={styles.arrowButton}>
 					<FcNext size={40} />
 				</button>
 			</div>

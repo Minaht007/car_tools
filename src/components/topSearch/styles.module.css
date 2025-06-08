@@ -109,11 +109,11 @@
 
     .slideCard {
         width: 100%;
-        max-width: 280px;
+        max-width: 252px;
     }
 
     .slideImage {
-        width: 100%;
+        width: 240px;
         height: auto;
     }
 

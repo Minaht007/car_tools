@@ -10,8 +10,11 @@
 }
 
 .logoImg {
-    min-width: 44px;
-    min-height: 44px;
+    min-width: 36px;
+    min-height: 36px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 8px;
 }
 
 .headerLinksContainer {
