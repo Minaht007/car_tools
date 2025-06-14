@@ -1,12 +1,24 @@
+:root {
+    --bg-light: #FFF5DD;
+    --accent: #B67216;
+    --white: #fff;
+    --primary: #3b82f6;
+    --gray-light: #d1d5db;
+    --gray-mid: #ccc;
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --transition-fast: 0.3s ease;
+}
+
 .sliderContainer {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
-    position: relative;
-    background-color: #FFF5DD;
+    background-color: var(--bg-light);
     padding: 4rem 0;
-    flex-wrap: wrap;
+    position: relative;
 }
 
 .arrowButton {
@@ -19,8 +31,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #B67216;
-    border-radius: 8px;
+    background-color: var(--accent);
+    border-radius: var(--radius-sm);
     padding-bottom: 1rem;
     width: 300px;
 }
@@ -29,79 +41,36 @@
     width: 100%;
     height: auto;
     padding: 1rem;
-    border-radius: 12px;
+    border-radius: var(--radius-md);
     object-fit: cover;
 }
 
 .slideText {
-    color: #fff;
+    color: var(--white);
     font-size: 1.125rem;
-    padding-top: 0.75rem;
-    padding-bottom: 1.5rem;
+    padding: 0.75rem 0 1.5rem;
     text-align: center;
 }
 
 .orderButton {
     padding: 0.5rem 5rem;
-    background-color: #fff;
-    border-radius: 12px;
+    background-color: var(--white);
+    border-radius: var(--radius-md);
     font-size: 1.125rem;
     cursor: pointer;
 }
 
-/* pagination */
+/* === Pagination Dots (New Unified Style) === */
 .pagination {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFF5DD;
-    margin-top: 1rem;
-    gap: 0.5rem;
-}
-
-.paginationDot {
-    width: 0.25rem;
-    height: 0.25rem;
-    border-radius: 9999px;
-    background-color: #ccc;
-    cursor: pointer;
-}
-
-.paginationDot.active {
-    background-color: #3b82f6;
-    width: 0.5rem;
-    height: 0.5rem;
-}
-
-.dotsContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFF5DD;
+    background-color: var(--bg-light);
     padding: 1rem 0;
     gap: 0.5rem;
 }
 
-.dot {
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 9999px;
-    background-color: #d1d5db;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.dot:hover {
-    transform: scale(1.2);
-}
-
-.activeDot {
-    background-color: #3b82f6;
-    width: 1rem;
-    height: 1rem;
-}
-
-/* mob */
+/* === Mobile === */
 @media (max-width: 640px) {
     .arrowButton {
         display: none;
@@ -114,7 +83,6 @@
 
     .slideImage {
         width: 240px;
-        height: auto;
     }
 
     .slideText {
@@ -126,18 +94,20 @@
         font-size: 1rem;
     }
 
-    .dot {
+    .dot,
+    .paginationDot {
         width: 0.25rem;
         height: 0.25rem;
     }
 
-    .activeDot {
+    .activeDot,
+    .paginationDot.active {
         width: 0.4rem;
         height: 0.4rem;
     }
 }
 
-/* tab */
+/* === Tablet === */
 @media (min-width: 641px) and (max-width: 1023px) {
     .arrowButton {
         display: flex;
@@ -158,7 +128,7 @@
     }
 }
 
-/* desc */
+/* === Desktop === */
 @media (min-width: 1024px) {
     .arrowButton {
         display: flex;

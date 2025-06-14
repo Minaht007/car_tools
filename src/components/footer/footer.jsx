@@ -5,7 +5,6 @@ import logo from "../../../public/img/Logo.png";
 import phone from "../../../public/icons/phone.png";
 import mail from "../../../public/icons/mail.png";
 import tg from "../../../public/icons/tg.png";
-// import point from "../../../public/icons/point.png";
 
 const footer = () => {
 	return (
@@ -29,18 +28,10 @@ const footer = () => {
 			</div>
 			{/* WORK HOUR */}
 			<div className={styles.hours}>
-				<p className={styles.hoursTitle}>Часи роботи:</p>
-				<p>Пн-Пт: 09.00-18.00</p>
-				<p>Сб: 10.00-16.00</p>
-				<p>Нд: вихідний</p>
+				<p className={styles.time}>Пн-Пт: 09.00-18.00</p>
+				<p className={styles.time}>Сб: 10.00-16.00</p>
+				<p className={styles.time}>Нд: вихідний</p>
 			</div>
-			{/* Map */}
-			{/* <div>
-				<p className={styles.map}>
-					<Image src={point} alt="location" width={24} height={64} className={styles.icon} />
-					Україна
-				</p>
-			</div> */}
 		</div>
 	);
 };

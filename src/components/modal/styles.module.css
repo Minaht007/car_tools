@@ -1,7 +1,18 @@
+:root {
+    --overlay-bg: rgba(0, 0, 0, 0.5);
+    --modal-bg: beige;
+    --close-color: #6b7280;
+    --close-hover: #374151;
+    --modal-radius: 1rem;
+    --modal-padding: 1.5rem;
+    --modal-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --modal-max-width: 40%;
+}
+
 .overlay {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--overlay-bg);
     z-index: 50;
 }
 
@@ -13,16 +24,19 @@
     justify-content: center;
     z-index: 50;
     padding: 1rem;
+
 }
 
 .content {
-    background-color: beige;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    width: 100%;
-    max-width: 40%;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     position: relative;
+    background-color: var(--modal-bg);
+    border-radius: var(--modal-radius);
+    padding: var(--modal-padding);
+    width: 100%;
+    max-width: var(--modal-max-width);
+    box-shadow: var(--modal-shadow);
+    max-height: 100vh;
+    overflow-y: auto;
 }
 
 .closeBtn {
@@ -30,21 +44,28 @@
     top: 0.75rem;
     right: 0.75rem;
     font-size: 1.5rem;
-    color: #6b7280;
-    cursor: pointer;
+    color: var(--close-color);
     background: none;
     border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
 }
 
 .closeBtn:hover {
-    color: #374151;
+    color: var(--close-hover);
 }
 
-/* mob*/
+/* === Mobile === */
 @media (max-width: 640px) {
+    .wrapper {
+        margin-top: 20px ;
+        margin-bottom: 20px;
+    }
+
     .content {
         max-width: 90%;
         padding: 1rem;
+
     }
 
     .closeBtn {
@@ -54,14 +75,14 @@
     }
 }
 
-/* tab */
+/* === Tablet === */
 @media (min-width: 641px) and (max-width: 1024px) {
     .content {
         max-width: 70%;
     }
 }
 
-/* deck*/
+/* === Desktop === */
 @media (min-width: 1025px) {
     .content {
         max-width: 40%;

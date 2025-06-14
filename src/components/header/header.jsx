@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../../public/img/Logo.png";
-// import phone from "../../public/icons/phone.png";
 import styles from "./styles.module.css";
 import ButtonComponent from "../modalForm/modalForm";
 
@@ -30,15 +29,6 @@ const header = () => {
 			</div>
 			<div className={styles.headerBtmDiv}>
 				<ButtonComponent stl={styles.headerBtmTitle} text={"Замовити дзвінок"} />
-				{/* <button>
-					<Image
-						className={` ${styles.headerBtmIcon}`}
-						src={phone}
-						alt="header_call_icon"
-						width={40}
-						height={40}
-					/>
-				</button> */}
 			</div>
 		</section>
 	);
