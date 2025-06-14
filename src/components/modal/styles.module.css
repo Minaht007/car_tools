@@ -1,18 +1,7 @@
-:root {
-    --overlay-bg: rgba(0, 0, 0, 0.5);
-    --modal-bg: beige;
-    --close-color: #6b7280;
-    --close-hover: #374151;
-    --modal-radius: 1rem;
-    --modal-padding: 1.5rem;
-    --modal-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-    --modal-max-width: 40%;
-}
-
 .overlay {
     position: fixed;
     inset: 0;
-    background: var(--overlay-bg);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 50;
 }
 
@@ -29,12 +18,12 @@
 
 .content {
     position: relative;
-    background-color: var(--modal-bg);
-    border-radius: var(--modal-radius);
-    padding: var(--modal-padding);
+    background-color: beige;
+    border-radius: 1rem;
+    padding: 1.5rem;
     width: 100%;
-    max-width: var(--modal-max-width);
-    box-shadow: var(--modal-shadow);
+    max-width: 40%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     max-height: 100vh;
     overflow-y: auto;
 }
@@ -44,7 +33,7 @@
     top: 0.75rem;
     right: 0.75rem;
     font-size: 1.5rem;
-    color: var(--close-color);
+    color: #6b7280;
     background: none;
     border: none;
     cursor: pointer;
@@ -52,13 +41,13 @@
 }
 
 .closeBtn:hover {
-    color: var(--close-hover);
+    color: #374151;
 }
 
 /* === Mobile === */
 @media (max-width: 640px) {
     .wrapper {
-        margin-top: 20px ;
+        margin-top: 20px;
         margin-bottom: 20px;
     }
 

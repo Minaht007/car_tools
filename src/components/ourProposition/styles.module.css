@@ -1,17 +1,8 @@
-:root {
-    --bg-light: #FFF5DD;
-    --accent: #B67216;
-    --text-dark: #333;
-    --text-white: #fff;
-    --radius: 8px;
-    --transition: 0.3s ease;
-}
-
 /* === Base === */
 .container {
     position: relative;
     overflow: hidden;
-    background-color: var(--bg-light);
+    background-color: #FFF5DD;
     padding: 2rem 0;
 }
 
@@ -21,7 +12,7 @@
     margin-left: 5rem;
     font-style: italic;
     font-weight: 100;
-    color: var(--text-dark);
+    color: #333;
 }
 
 .content {
@@ -48,17 +39,17 @@
 .listItem {
     width: 300px;
     height: 140px;
-    background-color: var(--accent);
+    background-color: #B67216;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.6rem;
-    border-radius: var(--radius);
-    transition: transform var(--transition);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
 }
 
 .itemText {
-    color: var(--text-white);
+    color: #fff;
     font-size: clamp(14px, 2vw, 32px);
 }
 

@@ -1,15 +1,10 @@
-:root {
-    --main-orange: #b67216;
-    --text-white: #ffffff;
-}
-
 /* === Base Styles === */
 .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--main-orange);
+    background-color: #b67216;
     flex-wrap: wrap;
 }
 
@@ -18,7 +13,7 @@
 .map {
     display: flex;
     flex-direction: column;
-    color: var(--text-white);
+    color: #ffffff;
 }
 
 .contacts {
@@ -29,7 +24,7 @@
     display: flex;
     align-items: center;
     margin: 0.75rem 0;
-    color: var(--text-white);
+    color: #ffffff;
     font-size: 18px;
     font-weight: 400;
 }
@@ -43,7 +38,7 @@
 }
 
 .time {
-    color: var(--text-white);
+    color: #ffffff;
     font-size: 18px;
     font-weight: 400;
     margin: 0.75rem 0;

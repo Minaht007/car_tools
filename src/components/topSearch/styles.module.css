@@ -1,22 +1,10 @@
-:root {
-    --bg-light: #FFF5DD;
-    --accent: #B67216;
-    --white: #fff;
-    --primary: #3b82f6;
-    --gray-light: #d1d5db;
-    --gray-mid: #ccc;
-    --radius-sm: 8px;
-    --radius-md: 12px;
-    --transition-fast: 0.3s ease;
-}
-
 .sliderContainer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
-    background-color: var(--bg-light);
+    background-color: #FFF5DD;
     padding: 4rem 0;
     position: relative;
 }
@@ -31,8 +19,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--accent);
-    border-radius: var(--radius-sm);
+    background-color: #B67216;
+    border-radius: 8px;
     padding-bottom: 1rem;
     width: 300px;
 }
@@ -41,12 +29,12 @@
     width: 100%;
     height: auto;
     padding: 1rem;
-    border-radius: var(--radius-md);
+    border-radius: 12px;
     object-fit: cover;
 }
 
 .slideText {
-    color: var(--white);
+    color: #fff;
     font-size: 1.125rem;
     padding: 0.75rem 0 1.5rem;
     text-align: center;
@@ -54,8 +42,8 @@
 
 .orderButton {
     padding: 0.5rem 5rem;
-    background-color: var(--white);
-    border-radius: var(--radius-md);
+    background-color: #fff;
+    border-radius: 12px;
     font-size: 1.125rem;
     cursor: pointer;
 }
@@ -65,7 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-light);
+    background-color: #FFF5DD;
     padding: 1rem 0;
     gap: 0.5rem;
 }

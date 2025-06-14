@@ -1,19 +1,5 @@
-:root {
-    --bg-light: #FFF5DD;
-    --accent: #B67216;
-    --white: #ffffff;
-    --black: #000000;
-    --text-dark: #333333;
-
-    --radius-md: 8px;
-
-    --font-title: 2.5rem;
-    --font-subtitle: 2rem;
-    --font-text: clamp(14px, 2vw, 32px);
-}
-
 .whoWeAreSection {
-    background-color: var(--bg-light);
+    background-color: #FFF5DD;
     padding: 2.5rem 0;
     position: relative;
 }
@@ -30,24 +16,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: var(--font-title);
-    color: var(--white);
-    background-color: var(--accent);
+    font-size: 2.5rem;
+    color: #ffffff;
+    background-color: #B67216;
     padding: 0.5rem 1rem;
-    border-radius: var(--radius-md);
+    border-radius: 8px;
 }
 
 .subtitle {
     font-size: 36px;
     margin-left: 3.375rem;
-    color: var(--black);
+    color: #000000;
 }
 
 .text {
-    font-size: var(--font-text);
+    font-size: clamp(14px, 2vw, 32px);
     padding: 1rem 3.375rem;
     text-align: justify;
-    color: var(--text-dark);
+    color: #333333;
 }
 
 .carImage {
