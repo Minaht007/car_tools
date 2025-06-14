@@ -1,3 +1,4 @@
+/* === Base Styles === */
 .headerSection {
     background-color: #b67216;
     display: flex;
@@ -14,7 +15,6 @@
     min-height: 36px;
     max-width: 80px;
     max-height: 80px;
-    border-radius: 8px;
 }
 
 .headerLinksContainer {
@@ -23,12 +23,14 @@
 }
 
 .headerLinks {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter',
+        sans-serif;
     font-size: 16px;
     color: #fff;
     font-weight: 400;
     cursor: pointer;
     text-decoration: none;
+    transition: color 0.3s, text-shadow 0.3s;
 }
 
 .headerLinks:hover {
@@ -43,45 +45,30 @@
 }
 
 .headerBtmTitle {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter',
+        sans-serif;
     font-weight: 600;
     font-size: 18px;
-    padding: 10px 8px;
+    width: 238px;
+    height: 68px;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
 
-.headerBtmIcon {
-    max-width: 70px;
-    max-height: 70px;
-}
-
-/* mob */
+/* === Mobile (<768px) === */
 @media screen and (max-width: 767px) {
-    .logoImgDiv {
-        margin-left: 16px;
-    }
-
     .logoImg {
         min-width: 44px;
         min-height: 44px;
     }
 
-    .headerLinks {
-        font-size: 16px;
-    }
-
     .headerBtmTitle {
         display: none;
     }
-
-    .headerBtmIcon {
-        display: block;
-    }
 }
 
-/* tab */
+/* === Tablet (768px - 1023px) === */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .logoImgDiv {
         margin-left: 40px;
@@ -103,16 +90,13 @@
     .headerBtmTitle {
         display: block;
         font-size: clamp(14px, 2vw, 20px);
-        padding: clamp(8px, 2vw, 16px) clamp(5px, 1.5vw, 10px);
-    }
-
-    .headerBtmIcon {
-        display: none;
+        width: 236px;
+        height: 40px;
     }
 }
 
-/* deck*/
-@media screen and (min-width: 1023px) {
+/* === Desktop (>=1024px) === */
+@media screen and (min-width: 1024px) {
     .logoImgDiv {
         margin-left: 60px;
     }
@@ -133,10 +117,5 @@
     .headerBtmTitle {
         display: block;
         font-size: clamp(14px, 2vw, 24px);
-        padding: clamp(10px, 2vw, 20px) clamp(5px, 1.5vw, 11px);
-    }
-
-    .headerBtmIcon {
-        display: none;
     }
 }

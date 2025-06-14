@@ -1,74 +1,70 @@
+/* === Base Styles === */
 .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #B67216;
-    padding: 1rem 0;
+    background-color: #b67216;
+    flex-wrap: wrap;
 }
 
-.logoWrapper {
-    margin: 1rem;
-}
-
-.logo {
-    border-radius: 0 0 1rem 1rem;
+.contacts,
+.hours,
+.map {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
 }
 
 .contacts {
-    display: flex;
-    flex-direction: column;
-    width: 250px;
     margin-left: 2.5rem;
 }
 
 .contactItem {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    color: #ffffff;
     margin: 0.75rem 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .icon {
     margin-right: 1rem;
 }
 
-.hours {
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
-    margin: 1rem;
-}
-
 .hoursTitle {
-    padding-bottom: 1rem;
     font-weight: bold;
 }
 
-.map {
-    margin: 1rem;
+.time {
     color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0.75rem 0;
 }
 
-/* mob */
+/* === Mobile === */
 @media (max-width: 640px) {
     .container {
         flex-direction: column;
-        align-items: center;
         text-align: center;
-        padding: 2rem 0;
     }
 
-    .contacts,
-    .hours,
-    .map {
+    .logo {
+        display: none;
+    }
+
+    .contacts {
         width: 100%;
         margin: 1rem 0;
     }
 
-    .contactItem {
+    .contactItem,
+    .time {
         justify-content: center;
+
+        margin: 0.35rem 0;
     }
 
     .logoWrapper {
@@ -76,13 +72,11 @@
     }
 }
 
-/* tab */
+/* === Tablet === */
 @media (min-width: 641px) and (max-width: 1024px) {
 
     .contacts,
-    .hours,
-    .map {
-        width: 45%;
+    .hours {
         margin: 1rem 0;
     }
 
@@ -91,11 +85,8 @@
     }
 }
 
-/* desc */
+/* === Desktop === */
 @media (min-width: 1025px) {
-    .container {
-        justify-content: space-around;
-    }
 
     .contacts,
     .hours,

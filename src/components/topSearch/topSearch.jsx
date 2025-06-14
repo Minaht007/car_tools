@@ -72,18 +72,6 @@ const SlideShow = () => {
 					<FcNext size={40} />
 				</button>
 			</div>
-
-			<div className={styles.dotsContainer}>
-				{[...Array(Math.ceil(totalSlides / slidesPerPage)).keys()].map((index) => (
-					<div
-						key={index}
-						className={`${styles.dot} ${
-							currentIndex / slidesPerPage === index ? styles.activeDot : ""
-						}`}
-						onClick={() => setCurrentIndex(index * slidesPerPage)}
-					/>
-				))}
-			</div>
 		</>
 	);
 };

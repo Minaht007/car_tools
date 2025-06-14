@@ -1,9 +1,10 @@
 .heroSection {
     display: flex;
+    flex-wrap: wrap;
     background-color: #FFF5DD;
     overflow: hidden;
     position: relative;
-    flex-wrap: wrap;
+    padding: 4rem 1rem;
 }
 
 .textBlock {
@@ -15,33 +16,32 @@
 .title {
     font-size: 64px;
     font-weight: 400;
-    line-height: 118%;
+    line-height: 1.18;
     color: #000;
 }
 
 .orderButton {
     background-color: #B67216;
+    color: #fff;
     padding: 0.875rem 1rem;
     border-radius: 8px;
     font-size: 24px;
-    color: #fff;
     margin-top: 4rem;
-    margin-bottom: 20rem;
     cursor: pointer;
 }
 
 .carImage {
     position: absolute;
-    top: 2.5rem;
+    top: 3rem;
     right: -400px;
     width: 100%;
-    height: auto;
     max-width: 1800px;
+    height: auto;
     z-index: 1;
     cursor: pointer;
 }
 
-/* mob */
+/* ===== MOBILE ===== */
 @media (max-width: 640px) {
     .textBlock {
         margin-left: 1rem;
@@ -54,27 +54,21 @@
     }
 
     .orderButton {
-        margin-top: 1rem;
-        margin-bottom: 2rem;
         font-size: 1rem;
         padding: 0.75rem 1rem;
+        margin: 1rem 0 2rem;
     }
 
     .carImage {
         position: static;
-        width: 100%;
-        margin-top: -2rem;
+        margin: 1rem auto 0;
+        max-width: 320px;
+        display: block;
     }
 }
 
-/* tab */
+/* ===== TABLET ===== */
 @media (min-width: 641px) and (max-width: 1023px) {
-    .heroSection {
-
-        padding: 2rem 1rem;
-
-    }
-
     .textBlock {
         margin-left: 2rem;
         padding-top: 4rem;
@@ -85,25 +79,21 @@
     }
 
     .orderButton {
-        margin-top: 3rem;
-        margin-bottom: 10rem;
         font-size: 1.0625rem;
+        margin: 3rem 0 6rem;
     }
 
     .carImage {
-        position: absolute;
         right: -200px;
-        width: 100%;
         max-width: 1000px;
     }
 }
 
-/* desc */
+/* ===== DESKTOP ===== */
 @media (min-width: 1024px) {
     .textBlock {
         margin-left: 170px;
         padding-top: 130px;
-        margin-bottom: 4rem;
     }
 
     .title {
@@ -111,15 +101,12 @@
     }
 
     .orderButton {
-        margin-top: 4rem;
-        margin-bottom: 20rem;
         font-size: 1.125rem;
+        margin: 4rem 0 20rem;
     }
 
     .carImage {
-        top: 3rem;
         right: -400px;
-        width: 100%;
         max-width: 1800px;
     }
 }

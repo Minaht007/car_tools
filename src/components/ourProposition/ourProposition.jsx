@@ -10,10 +10,18 @@ const ourProposition = () => {
 			<div className={styles.content}>
 				<Image className={styles.image} src={advImg} alt="honda adv" width={987} height={465} />
 				<ul className={styles.list}>
-					<li className={styles.listItem}>Підбір та доставка</li>
-					<li className={styles.listItem}>Оптімальна вартість</li>
-					<li className={styles.listItem}>Замовлення в пару кліків</li>
-					<li className={styles.listItem}>Гарантована якість</li>
+					<li className={styles.listItem}>
+						<p className={styles.itemText}>Підбір та доставка</p>
+					</li>
+					<li className={styles.listItem}>
+						<p className={styles.itemText}>Оптімальна вартість</p>
+					</li>
+					<li className={styles.listItem}>
+						<p className={styles.itemText}>Замовлення в пару кліків</p>
+					</li>
+					<li className={styles.listItem}>
+						<p className={styles.itemText}>Гарантована якість</p>
+					</li>
 				</ul>
 			</div>
 		</section>
