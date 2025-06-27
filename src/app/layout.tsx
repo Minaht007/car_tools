@@ -22,7 +22,7 @@ const interFont = Inter({
 });
 
 export const metadata: Metadata = {
-	title: "Двигун-життя",
+	title: "Auto_Modul",
 	description: "",
 };
 
