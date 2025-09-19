@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
     //   disallow: '/private/',
     },
-    sitemap: 'https://www.dev-hawks.dev//sitemap.xml',
+    sitemap: 'https://automodul.com.ua/sitemap.xml',
   }
 }
